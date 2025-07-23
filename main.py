@@ -25,14 +25,6 @@ class Employee:
     def year_salary(self):
         return self.salary * 12
 
-    @classmethod
-    def get_company(cls):
-        return cls.title
-
-    @staticmethod
-    def valid_salary(salary):
-        return salary >= 6000
-
 emp1 = Employee("Salem", "IT", 8000)
 emp2 = Employee("farouk", "HR", 5500)
 
